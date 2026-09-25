@@ -7,6 +7,8 @@ import {
     port_3d, jsp, notes, react1,
     be,sql, mini, snl,
   } from "../assets";
+  import qrImage from "../assets/project/qr.jpeg";
+  import pixelImage from "../assets/project/pixel.jpeg";
 
   const profiles = [
     {
@@ -124,31 +126,31 @@ import {
       // source_code_link: "https://github.com/shinchancode/3d-react-portfolio",
     },
     {
-      name: "TCE Events Management System",
+      name: "QR Spoofing And Detection",
       description:
-        "Implemented the Events Management Website to Conduct the events. In order to conduct any fest,Hackathon,Startup and events by there respective department should book the venue.",
+        "Built a cybersecurity project to demonstrate how hackers carry out QR-code attacks by replacing or manipulating legitimate QR codes to redirect users to malicious or fraudulent websites. The project also provides a detection mechanism to identify spoofed QR codes and help users avoid potential security threats.",
       tags: [
         {
-          name: "HTML/CSS",
+          name: "Machine Learning",
           color: "blue-text-gradient",
         },
         {
-          name: "Javascript",
+          name: "Python",
           color: "green-text-gradient",
         },
         {
-          name: "PHP",
+          name: "HTML/CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSny3zNwQA6-rFEGJDqRHzDPr8Uo91CTtRecA&s",
+      image: qrImage,
       // source_link: "https://shinchancode.github.io/React-Portfolio/",
       // source_code_link: "https://github.com/shinchancode/React-Portfolio",
     },
     {
-      name: "Hackathon Registration Website",
+      name: "Pixel Cart",
       description:
-        "Designed and developed a fully responsive hackathon registration website so that participants can register for and view the details about hackathon.",
+        "Pixel Cart is a modern e-commerce shopping website designed to provide users with a smooth and convenient online shopping experience. It allows users to browse products, view product details, search for items, add products to a cart, and manage their shopping selections through a user-friendly interface.",
       tags: [
         {
           name: "JavaScript",
@@ -159,52 +161,33 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image:"https://png.pngtree.com/template/20220419/ourmid/pngtree-hackathon-background-screen-hack-synth-poster-image_1174636.jpg",
+      image: pixelImage,
       // source_link: "https://rathi-30-days-of-javascript.onrender.com/",
       // source_code_link: "https://github.com/shinchancode/30-Days-of-Javascript",
     },
-    {
-      name: "Spotify and Amazon Clone",
-      description:
-        "Real-Time, event based communication in Nodejs and browser-based Chat application. Uses Socket.io for implementation for WebSockets protocol. This application built using Node.js, Express, Socket.io and Render (Hosting)",
-      tags: [
-        {
-          name: "HTML",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "green-text-gradient",
-        },
-        // {
-        //   name: "",
-        //   color: "pink-text-gradient",
-        // },
-      ],
-      image:"https://www.thesandreckoner.co.uk/wp-content/uploads/2018/08/GAS.png",
-    },
+       
   ]
   const experiences = [
-     {
-      title: "Web Devloper",
-      company_name: "Infotact Solutions Pvt Ltd",
+    {
+    title: "Java Full Stack Developement Intern",
+      company_name: "KodNest Technologies Pvt Ltd",
       icon: bny,
       iconBg: "#383E56",
-      date: "July 2025 - Present",
+      date: "Feb 2026 - May 2026",
       // link: "",
-      points: [
-        "Developing and maintaining responsive web interfaces using HTML, CSS, JavaScript, and Bootstrap.",
-        "Collaborating with the design and backend team to build dynamic features and integrate RESTful APIs.",
-        "Contributing to building and optimizing pages for maximum speed, performance, and SEO compliance.",
-        "Utilizing Git and GitHub for version control and collaborative development in a team environment.",
+    points: [
+       "Developing and maintaining responsive web interfaces using  Java, DBMS,HTML, CSS, JavaScript, and React.",
+       "Collaborating with the design and backend team to build dynamic features and integrate RESTful APIs.",
+      // "Contributing to building and optimizing pages for maximum speed, performance, and SEO compliance.",
+   //     "Utilizing Git and GitHub for version control and collaborative development in a team environment.",
 
-      ],
-      // link: "",
-    },
+   ],
+      
+    }
     
     // {
     //   title: "DSA Mentor",
